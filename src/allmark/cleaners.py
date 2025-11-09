@@ -345,6 +345,10 @@ def aggressive_artifact_removal(text):
             if patterns.is_citation_or_footnote(full_match):
                 continue
 
+            # Preserve stage directions (keep brackets for stage directions)
+            if patterns.is_stage_direction(full_match):
+                continue
+
             # Empty brackets - remove entirely
             if not inner.strip():
                 line = line[:start] + line[end:]
@@ -374,11 +378,48 @@ def find_content_start(text):
     """Find where narrative begins by looking for first Part/Act/Chapter markers."""
     lines = text.split('\n')
 
-    # First priority: Look for explicit chapter/part/act markers
+    # First priority: Look for strong narrative opening phrases
+    # This is more reliable than chapter markers which can appear in TOC
+    narrative_openings = [
+        'in the beginning',
+        'it was',
+        'once upon a time',
+        'the year was',
+        'it is',
+        'this is',
+        'when ',  # "when i was", "when he was", "when she was", etc.
+        'i was',
+        'call me',
+        'there was',
+        'there were',
+    ]
+
     for i, line in enumerate(lines):
-        if patterns.matches_chapter_pattern(line):
-            # Found first chapter/part/act, start here
-            return i
+        stripped = line.strip()
+        lower = stripped.lower()
+
+        # Skip if too early (probably title/copyright)
+        if i < 3:
+            continue
+
+        # Check for strong narrative openings
+        if any(lower.startswith(opening) for opening in narrative_openings):
+            # Verify this isn't in first 5% (probably frontmatter)
+            if i > len(lines) * 0.02:
+                # This is the narrative start line, return it directly
+                # Don't look back - we want to start exactly here
+                return i
+
+    # Third priority: Remove OceanofPDF watermark sections
+    # These often appear between frontmatter and narrative
+    for i, line in enumerate(lines):
+        if 'oceanofpdf' in line.lower():
+            # Check if next few lines look like narrative
+            for j in range(i+1, min(i+10, len(lines))):
+                stripped = lines[j].strip()
+                if stripped and len(stripped) > 50 and stripped[0].isupper():
+                    # Found narrative after OceanofPDF marker
+                    return j
 
     # Fallback: Use keyword-based detection
     narrative_count = 0
@@ -433,6 +474,15 @@ def merge_broken_paragraphs(text):
             for j in range(i, min(i + poetry_lines, len(lines))):
                 result.append(lines[j].rstrip())
             i += poetry_lines
+            continue
+
+        # Check for play/script section
+        play_lines = patterns.detect_play_section(lines, i)
+        if play_lines > 0:
+            # Preserve play formatting (character names, stage directions, dialogue)
+            for j in range(i, min(i + play_lines, len(lines))):
+                result.append(lines[j].rstrip())
+            i += play_lines
             continue
 
         # Check if we should merge with next line
@@ -518,9 +568,25 @@ def find_backmatter_start(text):
     search_start = max(0, int(len(lines) * 0.8))
     for i in range(len(lines) - 1, search_start, -1):
         stripped = lines[i].strip()
+
+        # Check for OceanofPDF markers (common in pirated books)
+        if 'oceanofpdf' in stripped.lower():
+            return i
+
+        # Check backmatter patterns
         for pattern in patterns.BACKMATTER_PATTERNS:
             if pattern.match(stripped):
                 return i
+
+    # Additional check: Look for "AFTERWORD" or similar in all caps
+    # (may not match patterns if formatting is different)
+    for i in range(search_start, len(lines)):
+        stripped = lines[i].strip()
+        if stripped.isupper() and len(stripped) > 3:
+            lower = stripped.lower()
+            if any(kw in lower for kw in ['afterword', 'about the author', 'acknowledgment']):
+                return i
+
     return None
 
 

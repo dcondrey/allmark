@@ -45,15 +45,8 @@ htmlcov/
 conversion_log.db
 books/
 
-# Development documentation (not for git)
-README-DEV.md
-BUGFIXES.md
-PATTERNS.md
-SUMMARY.md
-*_SUMMARY.md
-*_AUDIT.md
-*_REALITY_CHECK.md
-IMPROVEMENT*.md
+# Temporary test files (root directory)
+test_*.py
 
 # Examples output
 examples/output/

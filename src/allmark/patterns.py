@@ -10,6 +10,7 @@ All patterns are organized by category and follow a consistent naming convention
 """
 
 import re
+from .utils import roman_to_int
 
 # ============================================================================
 # UNICODE CHARACTER PATTERNS
@@ -78,6 +79,15 @@ ELLIPSIS = re.compile(
 
 # Control characters (except newlines and tabs)
 CONTROL_CHARS = re.compile(r'[\x00-\x08\x0B-\x0C\x0E-\x1F\x7F-\x9F]')
+
+# Quality scoring patterns (for PDF extraction)
+CORRUPTED_CHARS = re.compile(r'[\x00-\x08\x0b\x0c\x0e-\x1f]')
+EXCESSIVE_SPECIAL_CHARS = re.compile(r'[^\w\s\-.,;:!?\'"()\[\]{}]')
+
+# Typography normalization patterns
+SPACED_ELLIPSIS = re.compile(r'\s*\.\s*\.\s*\.')  # . . . → ...
+SENTENCE_END_SPACE = re.compile(r'[.!?]\s+$')  # Sentence end with space
+ALL_CAPS_WORD = re.compile(r'\b[A-Z]{4,}\b')  # ALL CAPS words (4+ letters)
 
 # ============================================================================
 # EBOOK ARTIFACT PATTERNS
@@ -760,3 +770,230 @@ def is_index_entry(line: str) -> bool:
         return True
 
     return False
+
+
+def is_stage_direction(line: str) -> bool:
+    """
+    Detect if line appears to be a stage direction in a play.
+
+    Stage directions typically:
+    - Are enclosed in parentheses or brackets
+    - Are in italics/emphasis (indicated by surrounding underscores or asterisks)
+    - Are short descriptive phrases about action, setting, or emotion
+    - Contain action verbs in present tense
+    - Are not dialogue
+
+    Args:
+        line: Line of text to check
+
+    Returns:
+        True if line appears to be a stage direction
+    """
+    stripped = line.strip()
+    if not stripped or len(stripped) < 3:
+        return False
+
+    # Enclosed in parentheses (most common)
+    if stripped.startswith('(') and stripped.endswith(')'):
+        return True
+
+    # Enclosed in square brackets
+    if stripped.startswith('[') and stripped.endswith(']'):
+        inner = stripped[1:-1].strip()
+        # Not a citation/footnote
+        if not is_citation_or_footnote(stripped) and len(inner.split()) >= 2:
+            return True
+
+    # Enclosed in emphasis markers (italics in markdown)
+    if (stripped.startswith('_') and stripped.endswith('_')) or \
+       (stripped.startswith('*') and stripped.endswith('*')):
+        inner = stripped[1:-1].strip()
+        if len(inner.split()) >= 2 and not inner.isupper():
+            return True
+
+    # Common stage direction patterns without brackets
+    # (tends to be short, lowercase, contains stage action verbs)
+    if len(stripped) < 100:
+        lower = stripped.lower()
+        stage_verbs = [
+            'enter', 'exit', 'exeunt', 'aside', 'pause',
+            'rising', 'sitting', 'looking', 'turning', 'walking',
+            'crossing', 'gesturing', 'pointing', 'laughing', 'crying',
+            'whispering', 'shouting', 'nodding', 'shaking',
+            'lights', 'curtain', 'scene', 'music', 'sound'
+        ]
+        if any(verb in lower for verb in stage_verbs):
+            # Must be short and not look like dialogue
+            if not stripped.startswith('"') and not stripped.startswith("'"):
+                return True
+
+    return False
+
+
+def is_character_name(line: str) -> bool:
+    """
+    Detect if line appears to be a character name in a play script.
+
+    Character names typically:
+    - Are ALL CAPS or Title Case
+    - Are short (1-4 words)
+    - Appear on their own line
+    - May have a colon after them
+    - Don't contain punctuation (except colon)
+
+    Args:
+        line: Line of text to check
+
+    Returns:
+        True if line appears to be a character name
+    """
+    stripped = line.strip()
+    if not stripped or len(stripped) < 2:
+        return False
+
+    # Remove trailing colon if present
+    if stripped.endswith(':'):
+        stripped = stripped[:-1].strip()
+
+    # Empty after removing colon
+    if not stripped:
+        return False
+
+    # Split into words
+    words = stripped.split()
+
+    # Character names are usually 1-4 words
+    if len(words) > 4:
+        return False
+
+    # Must not contain sentence punctuation
+    if any(c in stripped for c in '.!?;"'):
+        return False
+
+    # Check if ALL CAPS (common for play scripts)
+    if stripped.isupper() and len(stripped) >= 2:
+        return True
+
+    # Check if Title Case (also common)
+    if all(word[0].isupper() for word in words if word):
+        # Additional check: not too long
+        if len(stripped) <= 40:
+            return True
+
+    return False
+
+
+def detect_play_section(lines: list, start_idx: int, min_exchanges: int = 3) -> int:
+    """
+    Detect if a play/script section starts at start_idx.
+
+    Play heuristics:
+    - Character names (ALL CAPS or Title Case) followed by dialogue
+    - Stage directions in parentheses or brackets
+    - Pattern of NAME: dialogue repeating
+    - Minimal narrative prose
+
+    Args:
+        lines: List of text lines
+        start_idx: Starting index to check
+        min_exchanges: Minimum character/dialogue exchanges to qualify (default: 3)
+
+    Returns:
+        Number of consecutive play-formatted lines (0 if not a play)
+    """
+    if start_idx >= len(lines):
+        return 0
+
+    play_count = 0
+    exchanges = 0
+    i = start_idx
+    last_was_character = False
+
+    while i < len(lines) and i < start_idx + 100:  # Max 100 line lookahead
+        line = lines[i].rstrip()
+
+        # Empty line in play (separation between speeches)
+        if not line:
+            play_count += 1
+            i += 1
+            last_was_character = False
+            continue
+
+        # Stage direction
+        if is_stage_direction(line):
+            play_count += 1
+            i += 1
+            continue
+
+        # Character name
+        if is_character_name(line):
+            play_count += 1
+            exchanges += 1
+            last_was_character = True
+            i += 1
+            continue
+
+        # Dialogue line (follows character name)
+        if last_was_character:
+            # Should be indented or regular dialogue
+            play_count += 1
+            last_was_character = False
+            i += 1
+            continue
+
+        # Long prose line breaks play format
+        if len(line) > 100 and not is_stage_direction(line):
+            break
+
+        # If we've seen enough exchanges, continue
+        if exchanges >= min_exchanges:
+            play_count += 1
+        else:
+            break
+
+        i += 1
+
+    # Need minimum exchanges to qualify as play
+    return play_count if exchanges >= min_exchanges else 0
+
+
+def is_centered_roman_chapter(line: str) -> bool:
+    """
+    Detect if line is a centered Roman numeral chapter header.
+
+    These appear as:
+    - Excessive leading whitespace (centered)
+    - Roman numerals only (I, II, III, IV, V, etc.)
+    - Minimal or no trailing content
+
+    Args:
+        line: Line of text to check
+
+    Returns:
+        True if line appears to be a centered Roman numeral chapter header
+    """
+    # Must have significant leading whitespace (at least 20 spaces to indicate centering)
+    if not line.startswith(' ' * 20):
+        return False
+
+    stripped = line.strip()
+
+    # Must be only Roman numerals
+    if not stripped:
+        return False
+
+    # Check if it's a valid Roman numeral (I, II, III, IV, V, VI, VII, VIII, IX, X, etc.)
+    roman_pattern = re.compile(r'^[IVXLCDM]+$', re.IGNORECASE)
+
+    if not roman_pattern.match(stripped):
+        return False
+
+    # Additional check: must be a reasonable chapter number (I through XX is common)
+    # This prevents matching random Roman numeral text
+    try:
+        # Convert to see if it's a valid chapter number
+        value = roman_to_int(stripped.upper())
+        # Chapter numbers 1-30 are reasonable
+        return 1 <= value <= 30
+    except:
+        return False

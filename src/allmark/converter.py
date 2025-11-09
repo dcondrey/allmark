@@ -152,11 +152,70 @@ def clean_markdown(path, strip=True):
     # Stage 10: Standardize chapter headers (where they exist)
     text = standardize_chapters(text)
 
+    # Stage 10.5: Remove centered Roman numeral chapter headers and paragraph indentation
+    lines = text.split('\n')
+    cleaned = []
+    for line in lines:
+        # Remove centered Roman numeral chapter headers
+        if patterns.is_centered_roman_chapter(line):
+            continue
+
+        # Remove first-line paragraph indentation (2-5 spaces at start of line)
+        # But preserve deeper indentation (code blocks, quotes, poetry)
+        if line.startswith('   ') and not line.startswith('      '):
+            # Remove 2-5 space indent
+            cleaned.append(line.lstrip())
+        else:
+            cleaned.append(line)
+    text = '\n'.join(cleaned)
+
     # Stage 11: Typography normalization
-    text = text.replace(""", '"').replace(""", '"')
-    text = text.replace("'", "'").replace("'", "'")
-    text = text.replace("--", "--")
-    text = text.replace("…", "...")
+    # Normalize quotes
+    text = text.replace(""", '"').replace(""", '"')  # Curly double quotes
+    text = text.replace("'", "'").replace("'", "'")  # Curly single quotes/apostrophes
+
+    # Normalize dashes to em-dash
+    text = text.replace("—", "—")  # Em-dash (already correct, but normalize)
+    text = text.replace("–", "—")  # En-dash to em-dash
+    text = text.replace("--", "—")  # Double hyphen to em-dash
+
+    # Normalize ellipsis
+    text = text.replace("…", "...")  # Horizontal ellipsis to three dots
+    text = patterns.SPACED_ELLIPSIS.sub('...', text)  # Spaced dots to tight dots
+
+    # Normalize ALL CAPS words (but preserve acronyms and chapter headers)
+    # Split into lines for more efficient processing
+    lines = text.split('\n')
+    result_lines = []
+
+    for line in lines:
+        # Skip if line is a header (all caps, short line)
+        if len(line.strip()) < 50 and line.strip().isupper():
+            result_lines.append(line)
+            continue
+
+        def normalize_caps_in_line(match):
+            word = match.group(0)
+            # Preserve short words (likely acronyms: FBI, NASA, OK, etc.)
+            if len(word) <= 3:
+                return word
+            # Preserve if at start of line (likely header)
+            if match.start() == 0:
+                return word
+            # Check if at sentence start (after . ! ? and space)
+            before = line[max(0, match.start()-3):match.start()]
+            if patterns.SENTENCE_END_SPACE.search(before):
+                # Sentence start - capitalize first letter only
+                return word.capitalize()
+            else:
+                # Mid-sentence - lowercase
+                return word.lower()
+
+        # Find ALL CAPS words (4+ letters, all uppercase) in this line
+        processed_line = patterns.ALL_CAPS_WORD.sub(normalize_caps_in_line, line)
+        result_lines.append(processed_line)
+
+    text = '\n'.join(result_lines)
 
     # Stage 12: Validate and fix markdown formatting
     text = validate_and_fix_formatting(text)

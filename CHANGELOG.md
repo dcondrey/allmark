@@ -5,6 +5,70 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] - 2025-01-08
+
+### Added
+- **Multi-Strategy PDF Extraction**: 4 different extraction methods with automatic quality scoring
+  - UTF-8 encoding mode for better character handling
+  - Layout mode for formatted text preservation
+  - No-page-breaks mode for cleaner output
+  - Raw mode as final fallback
+  - Quality scoring system automatically selects best extraction method
+- **Play/Script Detection**: Comprehensive support for theatrical works
+  - `is_stage_direction()` - Detects parenthetical and bracketed stage directions
+  - `is_character_name()` - Detects ALL CAPS and Title Case character names
+  - `detect_play_section()` - Identifies entire play-formatted sections
+  - Preserves character names, stage directions, and dialogue formatting
+- **Enhanced Typography Normalization**: Comprehensive text standardization
+  - ALL CAPS word normalization with sentence-aware case conversion
+  - Preserves acronyms (3 letters or less)
+  - Proper case at sentence start, lowercase mid-sentence
+  - Em-dash standardization (en-dashes, double hyphens → em-dashes)
+  - Enhanced ellipsis normalization (spaced dots → tight dots)
+- **Centered Chapter Header Detection**: Removes centered Roman numeral headers
+  - `is_centered_roman_chapter()` - Detects excessive spacing + Roman numerals
+  - Validates reasonable chapter numbers (I-XXX)
+- **Improved Frontmatter Detection**: Narrative-first approach
+  - Detects narrative openings: "when ", "it was", "there was/were", etc.
+  - Prioritizes actual story start over structural headers
+  - Removes "PART ONE", standalone chapter numbers, TOC entries
+  - More accurate content trimming across diverse book structures
+- **Enhanced Backmatter Detection**: Better end-of-book cleanup
+  - Watermark removal
+  - ALL CAPS backmatter header detection (AFTERWORD, ABOUT THE AUTHOR)
+  - More comprehensive pattern matching
+
+### Enhanced
+- **PDF Extraction Quality**: Automatic selection of best extraction method based on:
+  - Corrupted character penalization
+  - Special character ratio analysis
+  - Word spacing quality assessment
+  - Line break and paragraph structure evaluation
+  - Whitespace ratio optimization
+- **Paragraph Indentation Removal**: Cleans first-line indents (2-5 spaces)
+  - Preserves deeper indentation for code blocks, quotes, poetry
+- **Form Feed Removal**: Removes page break characters (\f, \x0C) from PDFs
+- **Quote and Apostrophe Normalization**: Already working, now documented
+  - Curly quotes → straight quotes
+  - Curly apostrophes → straight apostrophes
+
+### Fixed
+- **Critical**: Added missing `roman_to_int` import in `patterns.py`
+- **Performance**: Refactored `normalize_caps()` to avoid inefficient closure over entire text
+  - Now processes line-by-line for better performance
+  - Preserves ALL CAPS headers correctly
+- **Bug**: Fixed frontmatter detection prioritizing chapter patterns over narrative
+  - Changed to narrative-first approach
+  - Prevents "PART ONE" from being treated as content start
+
+### Changed
+- Version bump from 0.4.0 to 0.5.0
+- Frontmatter detection now prioritizes narrative openings over chapter markers
+- Typography normalization expanded with ALL CAPS handling
+- Cleaning pipeline enhanced with Stage 10.5 (indentation and chapter header removal)
+
+---
+
 ## [0.4.0] - 2025-11-07
 
 ### Added
