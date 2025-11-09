@@ -1,120 +1,3 @@
-Down, down, down. There was nothing else to do, so Alice soon began talking again. “Dinah’ll miss me very much to-night, I should think!”
-(Dinah was the cat.) “I hope they’ll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me! There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know. But do cats eat bats, I wonder?” And here
-Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way, “Do cats eat bats? Do cats eat bats?” and sometimes, “Do bats eat cats?” for, you see, as she couldn’t answer either question, it didn’t much matter which way she put it. She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, and saying to her very earnestly,
-“Now, Dinah, tell me the truth: did you ever eat a bat?” when suddenly, thump! thump! down she came upon a heap of sticks and dry leaves, and the fall was over.
-Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging
-There were doors all round the hall, but they were all locked; and when
-Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again.
-Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them. However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!
-Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway; “and even if my head would go through,” thought poor Alice, “it would be of very little use without my shoulders. Oh, how I wish I could shut up like a telescope! I think I could, if I only
-knew how to begin.” For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible.
-There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it, (“which certainly was not here before,” said Alice,) and round the neck of the bottle was a paper label, with the words “DRINK ME,” beautifully printed on it in large letters.
-It was all very well to say “Drink me,” but the wise little Alice was not going to do _that_ in a hurry. “No, I’ll look first,” she said,
-“and see whether it’s marked ‘_poison_’ or not”; for she had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they
-_would_not remember the simple rules their friends had taught them: such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger_very_ deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked “poison,” it is almost certain to disagree with you, sooner or later.
-However, this bottle was _not_ marked “poison,” so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off.
-“What a curious feeling!” said Alice; “I must be shutting up like a telescope.”
-And so it was indeed: she was now only ten inches high, and her face brightened up at the thought that she was now the right size for going through the little door into that lovely garden. First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little nervous about this; “for it might end, you know,” said Alice to herself, “in my going out altogether, like a candle. I wonder what I should be like then?” And she tried to fancy what the flame of a candle is like after the candle is blown out, for she could
-not remember ever having seen such a thing.
-After a while, finding that nothing more happened, she decided on going into the garden at once; but, alas for poor Alice! when she got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: she could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried.
-“Come, there’s no use in crying like that!” said Alice to herself, rather sharply; “I advise you to leave off this minute!” She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people.
-“But it’s no use now,” thought poor Alice, “to pretend to be two people! Why, there’s hardly enough of me left to make _one_ respectable person!”
-Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words
-“EAT ME” were beautifully marked in currants. “Well, I’ll eat it,” said
-Alice, “and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door; so either way I’ll get into the garden, and I don’t care which happens!”
-She ate a little bit, and said anxiously to herself, “Which way? Which way?”, holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way.
-So she set to work, and very soon finished off the cake.
-CHAPTER II.
-The Pool of Tears
-“Curiouser and curiouser!” cried Alice (she was so much surprised, that for the moment she quite forgot how to speak good English); “now I’m opening out like the largest telescope that ever was! Good-bye, feet!”
-(for when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off). “Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure _I_ shan’t be able! I shall be a great deal too far off to trouble
-myself about you: you must manage the best way you can;—but I must be kind to them,” thought Alice, “or perhaps they won’t walk the way I want to go! Let me see: I’ll give them a new pair of boots every
-Christmas.”
-And she went on planning to herself how she would manage it. “They must go by the carrier,” she thought; “and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!
-     _Alice’s Right Foot, Esq., Hearthrug, near the Fender,_ (_with
-     Alice’s love_).
-Oh dear, what nonsense I’m talking!”
-Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.
-Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again.
-“You ought to be ashamed of yourself,” said Alice, “a great girl like you,” (she might well say this), “to go on crying in this way! Stop this moment, I tell you!” But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about
-four inches deep and reaching half down the hall.
-After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming. It was the White
-Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other: he came trotting along in a great hurry, muttering to himself as he came, “Oh! the Duchess, the
-Duchess! Oh! won’t she be savage if I’ve kept her waiting!” Alice felt so desperate that she was ready to ask help of any one; so, when the
-Rabbit came near her, she began, in a low, timid voice, “If you please, sir—” The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go.
-Alice took up the fan and gloves, and, as the hall was very hot, she kept fanning herself all the time she went on talking: “Dear, dear! How queer everything is to-day! And yesterday things went on just as usual.
-I wonder if I’ve been changed in the night? Let me think: was I the same when I got up this morning? I almost think I can remember feeling a little different. But if I’m not the same, the next question is, Who in the world am I? Ah, _that’s_ the great puzzle!” And she began
-thinking over all the children she knew that were of the same age as herself, to see if she could have been changed for any of them.
-“I’m sure I’m not Ada,” she said, “for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, _she’s_she, and_I’m_ I, and—oh dear, how puzzling it all is! I’ll try if I know all the things I used to know.
-and four times seven is—oh dear! I shall never get to twenty at that rate! However, the Multiplication Table doesn’t signify: let’s try
-Geography. London is the capital of Paris, and Paris is the capital of
-Rome, and Rome—no, _that’s_ all wrong, I’m certain! I must have been changed for Mabel! I’ll try and say ‘_How doth the little_—’” and she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:—
-“How doth the little crocodile
-    Improve his shining tail,
-And pour the waters of the Nile
-    On every golden scale!
-“How cheerfully he seems to grin,
-    How neatly spread his claws,
-And welcome little fishes in
-    With gently smiling jaws!”
-“I’m sure those are not the right words,” said poor Alice, and her eyes
-filled with tears again as she went on, “I must be Mabel after all, and
-I shall have to go and live in that poky little house, and have next to
-no toys to play with, and oh! ever so many lessons to learn! No, I’ve
-made up my mind about it; if I’m Mabel, I’ll stay down here! It’ll be
-no use their putting their heads down and saying ‘Come up again, dear!’
-I shall only look up and say ‘Who am I then? Tell me that first, and
-then, if I like being that person, I’ll come up: if not, I’ll stay down
-here till I’m somebody else’—but, oh dear!” cried Alice, with a sudden
-burst of tears, “I do wish they _would_ put their heads down! I am so
-_very_ tired of being all alone here!”
-As she said this she looked down at her hands, and was surprised to see
-that she had put on one of the Rabbit’s little white kid gloves while
-she was talking. “How _can_ I have done that?” she thought. “I must be
-growing small again.” She got up and went to the table to measure
-herself by it, and found that, as nearly as she could guess, she was
-now about two feet high, and was going on shrinking rapidly: she soon
-found out that the cause of this was the fan she was holding, and she
-dropped it hastily, just in time to avoid shrinking away altogether.
-“That _was_ a narrow escape!” said Alice, a good deal frightened at the
-sudden change, but very glad to find herself still in existence; “and
-now for the garden!” and she ran with all speed back to the little
-door: but, alas! the little door was shut again, and the little golden
-key was lying on the glass table as before, “and things are worse than
-ever,” thought the poor child, “for I never was so small as this
-before, never! And I declare it’s too bad, that it is!”
-As she said these words her foot slipped, and in another moment,
-splash! she was up to her chin in salt water. Her first idea was that
-she had somehow fallen into the sea, “and in that case I can go back by
-railway,” she said to herself. (Alice had been to the seaside once in
-her life, and had come to the general conclusion, that wherever you go
-to on the English coast you find a number of bathing machines in the
-sea, some children digging in the sand with wooden spades, then a row
-of lodging houses, and behind them a railway station.) However, she
-soon made out that she was in the pool of tears which she had wept when
-she was nine feet high.
-“I wish I hadn’t cried so much!” said Alice, as she swam about, trying
-to find her way out. “I shall be punished for it now, I suppose, by
-being drowned in my own tears! That _will_ be a queer thing, to be
-sure! However, everything is queer to-day.”
-Just then she heard something splashing about in the pool a little way
-off, and she swam nearer to make out what it was: at first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself.
-“Would it be of any use, now,” thought Alice, “to speak to this mouse?
-Everything is so out-of-the-way down here, that I should think very likely it can talk: at any rate, there’s no harm in trying.” So she began: “O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!” (Alice thought this must be the right way of speaking to a mouse: she had never done such a thing before, but she remembered having seen in her brother’s Latin Grammar, “A mouse—of a mouse—to a mouse—a mouse—O mouse!”) The Mouse looked at her rather inquisitively, and seemed to her to wink with one of its little eyes,
-but it said nothing.
-“Perhaps it doesn’t understand English,” thought Alice; “I daresay it’s a French mouse, come over with William the Conqueror.” (For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened.) So she began again: “Où est ma chatte?” which was the first sentence in her French lesson-book. The Mouse gave a sudden leap out of the water, and seemed to quiver all over with fright. “Oh, I beg your pardon!” cried Alice hastily, afraid that she had hurt the poor animal’s feelings. “I quite forgot you didn’t like
-cats.”
-“Not like cats!” cried the Mouse, in a shrill, passionate voice. “Would
-_you_ like cats if you were me?”
-“Well, perhaps not,” said Alice in a soothing tone: “don’t be angry about it. And yet I wish I could show you our cat Dinah: I think you’d take a fancy to cats if you could only see her. She is such a dear quiet thing,” Alice went on, half to herself, as she swam lazily about in the pool, “and she sits purring so nicely by the fire, licking her paws and washing her face—and she is such a nice soft thing to nurse—and she’s such a capital one for catching mice—oh, I beg your pardon!” cried Alice again, for this time the Mouse was bristling all
-over, and she felt certain it must be really offended. “We won’t talk about her any more if you’d rather not.”
-“We indeed!” cried the Mouse, who was trembling down to the end of his tail. “As if _I_ would talk on such a subject! Our family always
-_hated_ cats: nasty, low, vulgar things! Don’t let me hear the name again!”
-“I won’t indeed!” said Alice, in a great hurry to change the subject of conversation. “Are you—are you fond—of—of dogs?” The Mouse did not answer, so Alice went on eagerly: “There is such a nice little dog near our house I should like to show you! A little bright-eyed terrier, you know, with oh, such long curly brown hair! And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds! He says
-it kills all the rats and—oh dear!” cried Alice in a sorrowful tone,
-“I’m afraid I’ve offended it again!” For the Mouse was swimming away pool as it went.
-So she called softly after it, “Mouse dear! Do come back again, and we won’t talk about cats or dogs either, if you don’t like them!” When the
-Mouse heard this, it turned round and swam slowly back to her: its face was quite pale (with passion, Alice thought), and it said in a low trembling voice, “Let us get to the shore, and then I’ll tell you my history, and you’ll understand why it is I hate cats and dogs.”
 It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a
 Dodo, a Lory and an Eaglet, and several other curious creatures. Alice led the way, and the whole party swam to the shore.
 CHAPTER III.
@@ -178,19 +61,18 @@ This speech caused a remarkable sensation among the party. Some of the birds hur
 “I wish I hadn’t mentioned Dinah!” she said to herself in a melancholy tone. “Nobody seems to like her, down here, and I’m sure she’s the best cat in the world! Oh, my dear Dinah! I wonder if I shall ever see you any more!” And here poor Alice began to cry again, for she felt very lonely and low-spirited. In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story.
 CHAPTER IV.
 The Rabbit Sends in a Little Bill
-It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since
-her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.
+It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.
 Very soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.
-“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.
+“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. Rabbit,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.
 “How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”
-By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves: she took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass. There was no label this time with the words “DRINK ME,” but nevertheless she uncorked it and put it to her lips. “I know _something_ interesting is sure to happen,” she said to herself, “whenever I eat or drink anything; so
+By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves: she took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking-glass. There was no label this time with the words “drink ME,” but nevertheless she uncorked it and put it to her lips. “I know _something_ interesting is sure to happen,” she said to herself, “whenever I eat or drink anything; so
 I’ll just see what this bottle does. I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!”
 It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken. She hastily put down the bottle, saying to herself “That’s quite enough—I hope I shan’t grow any more—As it is, I can’t get out at the door—I do wish I hadn’t drunk quite so much!”
 Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor: in another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head.
 Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney, and said to herself “Now I can do no more, whatever happens. What _will_ become of me?”
 Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger: still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy.
 “It was much pleasanter at home,” thought poor Alice, “when one wasn’t always growing larger and smaller, and being ordered about by mice and rabbits. I almost wish I hadn’t gone down that rabbit-hole—and yet—and yet—it’s rather curious, you know, this sort of life! I do wonder what
-_can_ have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one! There ought to be a book written about me, that there ought! And when I grow up, I’ll write one—but I’m grown up now,” she added in a sorrowful tone; “at least there’s no room to grow up any more _here_.”
+_can_have happened to me! When I used to read fairy-tales, I fancied that kind of thing never happened, and now here I am in the middle of one! There ought to be a book written about me, that there ought! And when I grow up, I’ll write one—but I’m grown up now,” she added in a sorrowful tone; “at least there’s no room to grow up any more_here_.”
 “But then,” thought Alice, “shall I _never_get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like_that!_”
 “Oh, you foolish Alice!” she answered herself. “How can you learn lessons in here? Why, there’s hardly room for _you_, and no room at all for any lesson-books!”
 And so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen.
@@ -229,8 +111,7 @@ So she swallowed one of the cakes, and was delighted to find that she began shri
 “The first thing I’ve got to do,” said Alice to herself, as she wandered about in the wood, “is to grow to my right size again; and the second thing is to find my way into that lovely garden. I think that will be the best plan.”
 It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry.
 An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her. “Poor little thing!” said Alice, in a coaxing tone, and she tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing.
-Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it; then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it; then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every
-moment to be trampled under its feet, ran round the thistle again; then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut.
+Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it; then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it; then Alice, thinking it was very like having a game of play with a cart-horse, and expecting every moment to be trampled under its feet, ran round the thistle again; then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut.
 This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance.
 “And yet what a dear little puppy it was!” said Alice, as she leant against a buttercup to rest herself, and fanned herself with one of the leaves: “I should have liked teaching it tricks very much, if—if I’d only been the right size to do it! Oh dear! I’d nearly forgotten that
 I’ve got to grow up again! Let me see—how _is_ it to be managed? I suppose I ought to eat or drink something or other; but the great question is, what?”
@@ -269,37 +150,37 @@ Alice thought she might as well wait, as she had nothing else to do, and perhaps
 “Repeat, ‘_You are old, Father William_,’” said the Caterpillar.
 Alice folded her hands, and began:—
 “You are old, Father William,” the young man said,
-    “And your hair has become very white;
+“And your hair has become very white;
 And yet you incessantly stand on your headD
 o you think, at your age, it is right?”
 “In my youth,” Father William replied to his son,
-    “I feared it might injure the brain;
+“I feared it might injure the brain;
 But, now that I’m perfectly sure I have none,
-    Why, I do it again and again.”
+Why, I do it again and again.”
 “You are old,” said the youth, “as I mentioned before,
-    And have grown most uncommonly fat;
+And have grown most uncommonly fat;
 Yet you turned a back-somersault in at the doorP
 ray, what is the reason of that?”
 “In my youth,” said the sage, as he shook his grey locks,
-    “I kept all my limbs very supple
+“I kept all my limbs very supple
 By the use of this ointment—one shilling the boxA
 llow me to sell you a couple?”
 “You are old,” said the youth, “and your jaws are too weak
-    For anything tougher than suet;
+For anything tougher than suet;
 Yet you finished the goose, with the bones and the beakP
 ray, how did you manage to do it?”
 “In my youth,” said his father, “I took to the law,
-    And argued each case with my wife;
+And argued each case with my wife;
 And the muscular strength, which it gave to my jaw,
-    Has lasted the rest of my life.”
+Has lasted the rest of my life.”
 “You are old,” said the youth, “one would hardly suppose
-    That your eye was as steady as ever;
+That your eye was as steady as ever;
 Yet you balanced an eel on the end of your noseW
 hat made you so awfully clever?”
 “I have answered three questions, and that is enough,”
-    Said his father; “don’t give yourself airs!
+Said his father; “don’t give yourself airs!
 Do you think I can listen all day to such stuff?
-    Be off, or I’ll kick you down stairs!”
+Be off, or I’ll kick you down stairs!”
 “That is not said right,” said the Caterpillar.
 “Not _quite_ right, I’m afraid,” said Alice, timidly; “some of the
 words have got altered.”
@@ -358,8 +239,7 @@ _is_ that to be done, I wonder?” As she said this, she came suddenly upon an o
 _this_ size: why, I should frighten them out of their wits!” So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high.
 CHAPTER VI.
 Pig and Pepper
-For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles. It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads. She felt very curious to know what it was all
-about, and crept a little way out of the wood to listen.
+For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood—(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)—and rapped loudly at the door with his knuckles. It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads. She felt very curious to know what it was all about, and crept a little way out of the wood to listen.
 The Fish-Footman began by producing from under his arm a great letter, nearly as large as himself, and this he handed over to the other, saying, in a solemn tone, “For the Duchess. An invitation from the
 Queen to play croquet.” The Frog-Footman repeated, in the same solemn tone, only changing the order of the words a little, “From the Queen.
 An invitation for the Duchess to play croquet.”
@@ -399,9 +279,9 @@ Alice did not at all like the tone of this remark, and thought it would be as we
 Alice glanced rather anxiously at the cook, to see if she meant to take the hint; but the cook was busily stirring the soup, and seemed not to be listening, so she went on again: “Twenty-four hours, I _think_; or is it twelve? I—”
 “Oh, don’t bother _me_,” said the Duchess; “I never could abide figures!” And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:
 “Speak roughly to your little boy,
-    And beat him when he sneezes:
+And beat him when he sneezes:
 He only does it to annoy,
-    Because he knows it teases.”
+Because he knows it teases.”
 CHORUS.
 (In which the cook and the baby joined):
 “Wow! wow! wow!”
@@ -409,9 +289,9 @@ While the Duchess sang the second verse of the song, she kept tossing
 the baby violently up and down, and the poor little thing howled so,
 that Alice could hardly hear the words:—
 “I speak severely to my boy,
-    I beat him when he sneezes;
+I beat him when he sneezes;
 For he can thoroughly enjoy
-    The pepper when he pleases!”
+The pepper when he pleases!”
 CHORUS.
 “Wow! wow! wow!”
 “Here! you may nurse it a bit, if you like!” the Duchess said to Alice,
@@ -619,20 +499,17 @@ This answer so confused poor Alice, that she let the Dormouse go on for some tim
 “Why with an M?” said Alice.
 “Why not?” said the March Hare.
 Alice was silent.
-The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on: “—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say
-things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?”
+The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on: “—that begins with an M, such as mouse-traps, and the moon, and memory, and muchness—you know you say things are “much of a muchness”—did you ever see such a thing as a drawing of a muchness?”
 “Really, now you ask me,” said Alice, very much confused, “I don’t think—”
 “Then you shouldn’t talk,” said the Hatter.
-This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her:
-the last time she saw them, they were trying to put the Dormouse into the teapot.
+This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot.
 “At any rate I’ll never go _there_ again!” said Alice as she picked her way through the wood. “It’s the stupidest tea-party I ever was at in all my life!”
 Just as she said this, she noticed that one of the trees had a door leading right into it. “That’s very curious!” she thought. “But everything’s curious today. I think I may as well go in at once.” And in she went.
 Once more she found herself in the long hall, and close to the little glass table. “Now, I’ll manage better this time,” she said to herself, and began by taking the little golden key, and unlocking the door that led into the garden. Then she went to work nibbling at the mushroom
 (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and _then_—she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains.
 CHAPTER VIII.
 The Queen’s Croquet-Ground
-A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red. Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them she heard
-one of them say, “Look out now, Five! Don’t go splashing paint over me like that!”
+A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red. Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them she heard one of them say, “Look out now, Five! Don’t go splashing paint over me like that!”
 “I couldn’t help it,” said Five, in a sulky tone; “Seven jogged my elbow.”
 On which Seven looked up and said, “That’s right, Five! Always lay the blame on others!”
 “_You’d_ better not talk!” said Five. “I heard the Queen say only yesterday you deserved to be beheaded!”
@@ -643,8 +520,7 @@ Seven flung down his brush, and had just begun “Well, of all the unjust things
 “Would you tell me,” said Alice, a little timidly, “why you are painting those roses?”
 Five and Seven said nothing, but looked at Two. Two began in a low voice, “Why the fact is, you see, Miss, this here ought to have been a
 _red_ rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know. So you see, Miss, we’re doing our best, afore she comes, to—” At this moment Five, who had been anxiously looking across the garden, called out “The Queen! The Queen!” and the three gardeners instantly threw themselves flat upon their faces. There was a sound of many footsteps, and Alice looked round, eager to see the Queen.
-First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did. After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts. Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a
-hurried nervous manner, smiling at everything that was said, and went by without noticing her. Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion; and, last of all this grand procession, came THE KING AND QUEEN OF HEARTS.
+First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did. After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts. Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her. Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion; and, last of all this grand procession, came THE king AND queen OF hearts.
 Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions; “and besides, what would be the use of a procession,” thought she, “if people had all to lie down upon their faces, so that they couldn’t see it?” So she stood still where she was, and waited.
 When the procession came opposite to Alice, they all stopped and looked at her, and the Queen said severely “Who is this?” She said it to the
 Knave of Hearts, who only bowed and smiled in reply.
@@ -680,8 +556,7 @@ The soldiers were silent, and looked at Alice, as the question was evidently mea
 “She boxed the Queen’s ears—” the Rabbit began. Alice gave a little scream of laughter. “Oh, hush!” the Rabbit whispered in a frightened tone. “The Queen will hear you! You see, she came rather late, and the
 Queen said—”
 “Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.
-The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it _would_ twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing: and when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog
-had unrolled itself, and was in the act of crawling away: besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed.
+The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it _would_ twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing: and when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away: besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed.
 The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about, and shouting “Off with his head!” or “Off with her head!” about once in a minute.
 Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute,
 “and then,” thought she, “what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!”
@@ -983,19 +858,19 @@ Waiting in a hot tureen!
 Who for such dainties would not stoop?
 Soup of the evening, beautiful Soup!
 Soup of the evening, beautiful Soup!
-    Beau—ootiful Soo—oop!
-    Beau—ootiful Soo—oop!
+Beau—ootiful Soo—oop!
+Beau—ootiful Soo—oop!
 Soo—oop of the e—e—evening,
-    Beautiful, beautiful Soup!
+Beautiful, beautiful Soup!
 “Beautiful Soup! Who cares for fish,
 Game, or any other dish?
 Who would not give all else for two p
 ennyworth only of beautiful Soup?
 Pennyworth only of beautiful Soup?
-    Beau—ootiful Soo—oop!
-    Beau—ootiful Soo—oop!
+Beau—ootiful Soo—oop!
+Beau—ootiful Soo—oop!
 Soo—oop of the e—e—evening,
-    Beautiful, beauti—FUL SOUP!”
+Beautiful, beauti—FUL soup!”
 “Chorus again!” cried the Gryphon, and the Mock Turtle had just begun
 to repeat it, when a cry of “The trial’s beginning!” was heard in the
 distance.
@@ -1005,7 +880,7 @@ off, without waiting for the end of the song.
 answered “Come on!” and ran the faster, while more and more faintly
 came, carried on the breeze that followed them, the melancholy words:—
 “Soo—oop of the e—e—evening,
-    Beautiful, beautiful Soup!”
+Beautiful, beautiful Soup!”
 CHAPTER XI.
 Who Stole the Tarts?
 The King and Queen of Hearts were seated on their throne when they
@@ -1041,9 +916,9 @@ One of the jurors had a pencil that squeaked. This of course, Alice could _not_ 
 “Herald, read the accusation!” said the King.
 On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—
 “The Queen of Hearts, she made some tarts,
-    All on a summer day:
+All on a summer day:
 The Knave of Hearts, he stole those tarts,
-    And took them quite away!”
+And took them quite away!”
 “Consider your verdict,” the King said to the jury.
 “Not yet, not yet!” the Rabbit hastily interrupted. “There’s a great
 deal to come before that!”
@@ -1217,29 +1092,29 @@ your Majesty?” he asked.
 come to the end: then stop.”
 These were the verses the White Rabbit read:—
 “They told me you had been to her,
-    And mentioned me to him:
+And mentioned me to him:
 She gave me a good character,
-    But said I could not swim.
+But said I could not swim.
 He sent them word I had not gone
-    (We know it to be true):
+(We know it to be true):
 If she should push the matter on,
-    What would become of you?
+What would become of you?
 I gave her one, they gave him two,
-    You gave us three or more;
+You gave us three or more;
 They all returned from him to you,
-    Though they were mine before.
+Though they were mine before.
 If I or she should chance to be
-    Involved in this affair,
+Involved in this affair,
 He trusts to you to set them free,
-    Exactly as we were.
+Exactly as we were.
 My notion was that you had been
-    (Before she had this fit)
+(Before she had this fit)
 An obstacle that came between
-    Him, and ourselves, and it.
+Him, and ourselves, and it.
 Don’t let him know she liked them best,
-    For this must ever be
+For this must ever be
 A secret, kept from all the rest,
-    Between yourself and me.”
+Between yourself and me.”
 “That’s the most important piece of evidence we’ve heard yet,” said the
 King, rubbing his hands; “so now let the jury—”
 “If any one of them can explain it,” said Alice, (she had grown so
@@ -1294,7 +1169,6 @@ So she sat on, with closed eyes, and half believed herself in
 Wonderland, though she knew she had but to open them again, and all would change to dull reality—the grass would be only rustling in the wind, and the pool rippling to the waving of the reeds—the rattling teacups would change to tinkling sheep-bells, and the Queen’s shrill cries to the voice of the shepherd boy—and the sneeze of the baby, the shriek of the Gryphon, and all the other queer noises, would change
 (she knew) to the confused clamour of the busy farm-yard—while the lowing of the cattle in the distance would take the place of the Mock
 Turtle’s heavy sobs.
-Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood: and how she would gather about her other little children, and make _their_ eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer
-days.
+Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood: and how she would gather about her other little children, and make _their_ eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days.
 THE END
 ***END OF THE PROJECT GUTENBERG EBOOK 11***

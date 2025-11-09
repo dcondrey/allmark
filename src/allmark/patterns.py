@@ -89,6 +89,10 @@ SPACED_ELLIPSIS = re.compile(r'\s*\.\s*\.\s*\.')  # . . . → ...
 SENTENCE_END_SPACE = re.compile(r'[.!?]\s+$')  # Sentence end with space
 ALL_CAPS_WORD = re.compile(r'\b[A-Z]{4,}\b')  # ALL CAPS words (4+ letters)
 
+# Domain watermark detection (for removing pirated ebook watermarks)
+# Matches: oceanofpdf.com, www.domain.com, text.domain.com, lines ending with .com/.net/.org
+DOMAIN_WATERMARK = re.compile(r'^(?:www\.)?[\w-]+\.(?:com|net|org|io|co|uk|pdf)$|\.(?:com|net|org|io|co|uk|pdf)\s*$')
+
 # ============================================================================
 # EBOOK ARTIFACT PATTERNS
 # ============================================================================

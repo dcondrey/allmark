@@ -379,36 +379,88 @@ def find_content_start(text):
     lines = text.split('\n')
 
     # First priority: Look for strong narrative opening phrases
-    # This is more reliable than chapter markers which can appear in TOC
+    # These should be at the START of the line and be EARLY in the document
+    # We collect ALL matches and choose the earliest one that looks legitimate
     narrative_openings = [
-        'in the beginning',
-        'it was',
-        'once upon a time',
-        'the year was',
-        'it is',
-        'this is',
-        'when ',  # "when i was", "when he was", "when she was", etc.
-        'i was',
-        'call me',
-        'there was',
-        'there were',
+        ('in the beginning', True),  # (pattern, requires_word_boundary)
+        ('it was', True),
+        ('once upon a time', False),
+        ('the year was', False),
+        ('it is a truth', False),  # Pride and Prejudice
+        ('when ', True),  # "when i was", "when he was", "when she was", etc.
+        ('there was', True),
+        ('there were', True),
+        ('the ', True),  # Very common: "The amber light", "The boy", etc.
+        ('listen.', False),  # Common literary opening
+        ('listen,', False),
     ]
+
+    # Collect all potential narrative starts
+    potential_starts = []
+
+    # Find last frontmatter marker (copyright, domain watermarks, etc.)
+    last_frontmatter_idx = 0
+    for i, line in enumerate(lines[:min(200, len(lines))]):  # Only check first 200 lines
+        stripped = line.strip().lower()
+
+        # Check for domain watermarks (e.g., anysite.com)
+        if patterns.DOMAIN_WATERMARK.search(stripped):
+            last_frontmatter_idx = i
+            continue
+
+        # Common frontmatter markers
+        if any(marker in stripped for marker in ['copyright', 'isbn', 'published', 'reserved', 'table of contents', 'dedication']):
+            last_frontmatter_idx = i
 
     for i, line in enumerate(lines):
         stripped = line.strip()
         lower = stripped.lower()
 
-        # Skip if too early (probably title/copyright)
-        if i < 3:
+        # Skip if before last frontmatter marker + 2 lines
+        if i < last_frontmatter_idx + 2:
             continue
 
+        # Check for character name followed by narrative (literary fiction pattern)
+        # Example: "Sir Arthur George Jennings" followed by "Listen."
+        if i > 0 and len(stripped) > 3 and len(stripped) < 50:
+            # Check if this looks like a character name
+            words = stripped.split()
+            if (len(words) >= 2 and
+                all(w[0].isupper() for w in words if len(w) > 0) and
+                not any(kw in lower for kw in ['chapter', 'part', 'book', 'contents', 'copyright', 'dedication'])):
+                # Check if next line starts narrative
+                if i + 1 < len(lines):
+                    next_line = lines[i + 1].strip().lower()
+                    if any(next_line.startswith(opening[0]) for opening in narrative_openings):
+                        # Found character name + narrative opening
+                        potential_starts.append((i, 'character_name'))
+
         # Check for strong narrative openings
-        if any(lower.startswith(opening) for opening in narrative_openings):
-            # Verify this isn't in first 5% (probably frontmatter)
-            if i > len(lines) * 0.02:
-                # This is the narrative start line, return it directly
-                # Don't look back - we want to start exactly here
-                return i
+        for opening, needs_boundary in narrative_openings:
+            if lower.startswith(opening):
+                if needs_boundary:
+                    # Verify word boundary
+                    # If opening ends with space, next char can be anything (boundary already satisfied)
+                    # If opening doesn't end with space, next char must be boundary char
+                    if opening.endswith(' '):
+                        # Word boundary already in pattern (e.g., "the ", "when ")
+                        if len(stripped) > 15:
+                            potential_starts.append((i, f'opening:{opening[0]}'))
+                    else:
+                        # Need to check boundary (e.g., "it was" should not match "it wasn't")
+                        if len(stripped) == len(opening) or stripped[len(opening)] in ' .,;:!?':
+                            if len(stripped) > 15:
+                                potential_starts.append((i, f'opening:{opening[0]}'))
+                else:
+                    # Direct match OK
+                    if len(stripped) > 10:
+                        potential_starts.append((i, f'opening:{opening[0]}'))
+
+    # Return the EARLIEST match if we found any
+    if potential_starts:
+        # Sort by line number and return the first
+        potential_starts.sort(key=lambda x: x[0])
+        return potential_starts[0][0]
 
     # Third priority: Remove OceanofPDF watermark sections
     # These often appear between frontmatter and narrative
@@ -508,17 +560,20 @@ def merge_broken_paragraphs(text):
                 i += 1
                 continue
 
-            # Don't merge if current line is very short (likely intentional break)
-            if len(current) < 40:
-                result.append(current)
-                i += 1
-                continue
-
             # Merge if next line starts with lowercase or continuation punctuation
-            if next_line[0].islower() or next_line[0] in ',.;:)]}':
+            # This handles broken paragraphs like "the pain,\nchildish"
+            if next_line and (next_line[0].islower() or next_line[0] in ',.;:)]}'):
                 # Merge with space
                 result.append(current + ' ' + next_line)
                 i += 2
+                continue
+
+            # Don't merge if current line is very short (likely intentional break)
+            # BUT: moved this check AFTER the lowercase check so we still merge
+            # broken sentences even if the first part is short
+            if len(current) < 40:
+                result.append(current)
+                i += 1
                 continue
 
         # Default: keep line as-is
@@ -564,27 +619,59 @@ def find_backmatter_start(text):
         if estimated_end < len(lines):
             return min(int(estimated_end * 1.1), len(lines) - 1)
 
-    # Fallback: Use pattern matching in last 20% of document
-    search_start = max(0, int(len(lines) * 0.8))
+    # Fallback: Use pattern matching in last 30% of document
+    search_start = max(0, int(len(lines) * 0.7))
+
+    # First pass: Look for website watermarks and publisher markers (most reliable)
+    for i in range(search_start, len(lines)):
+        stripped = lines[i].strip().lower()
+
+        # Generic domain watermark detection (e.g., "oceanofpdf.com", "ebookbike.com", etc.)
+        # Matches: domain.com, www.domain.com, text.domain.com, or lines ending with .com/.net/.org
+        if patterns.DOMAIN_WATERMARK.search(stripped):
+            return i
+
+        # Also catch lines that contain ONLY a domain (possibly with spaces)
+        if stripped and '.' in stripped and len(stripped.split()) == 1:
+            # Check if it looks like a domain (has .com, .net, etc.)
+            if any(ext in stripped for ext in ['.com', '.net', '.org', '.io', '.co', '.uk', '.pdf']):
+                return i
+
+        # Publisher markers
+        if stripped == "publisher's note" or stripped == "publishers' note":
+            return i
+
+        # "About the Author" section
+        if stripped in ['about the author', 'about the authors']:
+            return i
+
+        # "Also by" / "More by" sections
+        if stripped.startswith('also by ') or stripped.startswith('more by '):
+            return i
+
+    # Second pass: Search backwards for backmatter keywords
     for i in range(len(lines) - 1, search_start, -1):
         stripped = lines[i].strip()
+        lower = stripped.lower()
 
-        # Check for OceanofPDF markers (common in pirated books)
-        if 'oceanofpdf' in stripped.lower():
-            return i
+        # Check backmatter keywords
+        if any(kw in lower for kw in patterns.BACKMATTER_KEYWORDS):
+            # Make sure this isn't just a passing reference
+            # Check if it's a section header (short line, possibly all caps)
+            if len(stripped) < 100:
+                return i
 
         # Check backmatter patterns
         for pattern in patterns.BACKMATTER_PATTERNS:
             if pattern.match(stripped):
                 return i
 
-    # Additional check: Look for "AFTERWORD" or similar in all caps
-    # (may not match patterns if formatting is different)
+    # Third pass: Look for all-caps section headers
     for i in range(search_start, len(lines)):
         stripped = lines[i].strip()
-        if stripped.isupper() and len(stripped) > 3:
+        if stripped.isupper() and len(stripped) > 3 and len(stripped) < 100:
             lower = stripped.lower()
-            if any(kw in lower for kw in ['afterword', 'about the author', 'acknowledgment']):
+            if any(kw in lower for kw in ['afterword', 'about the author', 'acknowledgment', 'also by', 'more by']):
                 return i
 
     return None

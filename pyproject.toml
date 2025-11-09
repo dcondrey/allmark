@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "allmark"
-version = "0.5.0"
+version = "0.6.0"
 description = "Universal eBook → Markdown converter and cleaner"
 readme = "README.md"
 authors = [

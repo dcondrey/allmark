@@ -18,7 +18,7 @@ All files are "Alice's Adventures in Wonderland" by Lewis Carroll (Public Domain
 
 ### ✅ Document Formats
 
-- **alice.html** - HTML (166 KB) - Project Gutenberg
+- **alice.html** - html (166 KB) - Project Gutenberg
 - **alice.pdf** - PDF (87 KB) - Adobe Sample
 - **sample.docx** - Microsoft Word (11 KB) - Pandoc-generated
 - **alice.fb2** - FictionBook 2.0 (53 KB) - LinguaBooster
@@ -48,36 +48,36 @@ All files are "Alice's Adventures in Wonderland" by Lewis Carroll (Public Domain
 Convert all examples (creates 14 markdown files):
 
 ```bash
-allmark --in examples --out examples/output
+allmark —in examples —out examples/output
 
-Convert with JSONL output for ML/AI training:
+Convert with jsonl output for ML/AI training:
 
 ```bash
-allmark --in examples --out examples/output --jsonl --token-size 512
+allmark —in examples —out examples/output —jsonl —token-size 512
 
 Convert without cleaning (raw conversion):
 
 ```bash
-allmark --in examples --out examples/output --no-strip
+allmark —in examples —out examples/output —no-strip
 
 Test specific format:
 
 ```bash
 
 
-# EPUB to markdown
+# epub to markdown
 
-mkdir test_epub && cp examples/alice.epub test_epub/ allmark --in test_epub --out output_epub
+mkdir test_epub && cp examples/alice.epub test_epub/ allmark —in test_epub —out output_epub
 
 
-# HTML to markdown
+# html to markdown
 
-mkdir test_html && cp examples/alice.html test_html/ allmark --in test_html --out output_html
+mkdir test_html && cp examples/alice.html test_html/ allmark —in test_html —out output_html
 
 
 # Kindle to markdown
 
-mkdir test_kindle && cp examples/alice.mobi test_kindle/ allmark --in test_kindle --out output_kindle
+mkdir test_kindle && cp examples/alice.mobi test_kindle/ allmark —in test_kindle —out output_kindle
 
 
 ## Format Quality Comparison
@@ -92,7 +92,7 @@ allmark's cleaning pipeline removes common ebook artifacts:
 - Project Gutenberg license text (frontmatter)
 - "Produced by..." credits (frontmatter)
 - Table of Contents
-- "*** END OF PROJECT GUTENBERG..." (backmatter)
+- "*** END OF project gutenberg..." (backmatter)
 - Page numbers (from PDFs)
 - Running headers/footers
 - Metadata tables
@@ -127,7 +127,7 @@ cp your_book.format test_format/
 
 # 2. Convert
 
-allmark --in test_format --out test_output --no-strip
+allmark —in test_format —out test_output —no-strip
 
 
 # 3. Check output quality
@@ -137,7 +137,7 @@ cat test_output/your_book.md | head -50
 
 # 4. If good, convert with cleaning
 
-allmark --in test_format --out test_output_clean
+allmark —in test_format —out test_output_clean
 
 
 ## Format Support Requirements
@@ -145,7 +145,7 @@ allmark --in test_format --out test_output_clean
 
 ### No Additional Tools Needed
 
-EPUB, DOCX, HTML, TXT, MD, RTF, ODT, TEX, RST - Work with just Pandoc
+EPUB, docx, html, TXT, MD, RTF, ODT, TEX, RST - Work with just Pandoc
 
 
 ### Requires poppler-utils
